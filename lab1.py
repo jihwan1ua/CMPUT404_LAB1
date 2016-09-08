@@ -6,8 +6,12 @@ import requests
 
 #response = requests.get("http://google.com")
 
-response = requests.post("http://ccid-eddieantonio.rhcloud.com/jihwan")
+#response = requests.post("http://ccid-eddieantonio.rhcloud.com/jihwan")
+
+response = requests.get("https://raw.githubusercontent.com/jihwan1ua/CMPUT404_LAB1/master/lab1.py")
 
 #print requests.__version__
 
-print response.status_code
+#print response.status_code
+
+print response.text
